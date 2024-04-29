@@ -1,11 +1,11 @@
-import { Button } from '@chakra-ui/react';
+import { Container } from '@chakra-ui/react';
+import UserForm from './components/UserForm';
 
 function App() {
 	return (
-		<>
-			Vite project
-			<Button>Submit button</Button>
-		</>
+		<Container>
+			<UserForm />
+		</Container>
 	);
 }
 
